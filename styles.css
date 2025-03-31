@@ -1,10 +1,11 @@
 /*index.html style*/
 
-/*Title*/
-#index-header {
+/*All Page Titles*/
+#title {
     color: black;
     background-color: #ff2b2bc5;
     font-family: Garamond, serif;
+    text-align: center;
 }
 
 /*Recipe List*/
@@ -26,3 +27,23 @@
     transform: rotate(270deg);
     margin:-48px 48px;
 }
+
+/*'recipe'.html images*/
+.recipe-img {
+    display: block;
+    margin: auto;   
+}
+
+/*image description centering*/
+.img-desc {
+    text-align: center;
+}
+
+/*Home button*/
+button {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*salad.html style*/
