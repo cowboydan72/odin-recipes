@@ -1,0 +1,28 @@
+/*index.html style*/
+
+/*Title*/
+#index-header {
+    color: black;
+    background-color: #ff2b2bc5;
+    font-family: Garamond, serif;
+}
+
+/*Recipe List*/
+.recipe {
+    color: black;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Images*/
+.img {
+    width: 300px;
+    height: auto;
+    object-fit: scale-down;
+}
+
+/*Rotate Salmon*/
+.img.salmon {
+    transform: rotate(270deg);
+    margin:-48px 48px;
+}
